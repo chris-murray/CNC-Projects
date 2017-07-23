@@ -1,0 +1,256 @@
+{
+    "CIRCLE_OBJECTS": [
+        {
+            "id": "{1bb50791-5cac-4ceb-a350-325e3eddb04d}",
+            "position": [
+                50.8,
+                50.8
+            ],
+            "radius": 4.191
+        },
+        {
+            "id": "{f9cd86d4-e73b-4582-a6c1-b1e81e99ece5}",
+            "position": [
+                266.7,
+                50.79999999999999
+            ],
+            "radius": 4.191
+        },
+        {
+            "id": "{eff0555d-cc3e-4ceb-a569-56c9be2bb3f8}",
+            "position": [
+                482.59999999999997,
+                50.8
+            ],
+            "radius": 4.191
+        },
+        {
+            "id": "{4e51532c-819a-42d9-bf14-3be5f91209fa}",
+            "position": [
+                50.8,
+                254
+            ],
+            "radius": 4.191
+        },
+        {
+            "id": "{91c5ad31-3902-4481-bb34-397a4b6c3df0}",
+            "position": [
+                266.7,
+                254
+            ],
+            "radius": 4.191
+        },
+        {
+            "id": "{e6e362e9-6f7a-4121-a23b-e6301412bb76}",
+            "position": [
+                482.59999999999997,
+                254
+            ],
+            "radius": 4.191
+        },
+        {
+            "id": "{2d1c206e-3789-45fd-aa43-bcc5e37124d6}",
+            "position": [
+                50.8,
+                508
+            ],
+            "radius": 4.191
+        },
+        {
+            "id": "{d8752c93-0144-4632-8801-62eecad3a6b9}",
+            "position": [
+                266.7,
+                508
+            ],
+            "radius": 4.191
+        },
+        {
+            "id": "{d1c2616e-a632-44df-ab2d-4c8cdd8c91af}",
+            "position": [
+                482.59999999999997,
+                508
+            ],
+            "radius": 4.191
+        },
+        {
+            "id": "{97944099-05fe-4be4-b68e-de6944a0d70a}",
+            "position": [
+                50.8,
+                762
+            ],
+            "radius": 4.191
+        },
+        {
+            "id": "{078fffb9-6351-48bd-a26d-cd73497799a2}",
+            "position": [
+                256.667,
+                762
+            ],
+            "radius": 4.191
+        },
+        {
+            "id": "{ed12624b-b73a-4b2f-900c-a92e807e06a5}",
+            "position": [
+                482.59999999999997,
+                762
+            ],
+            "radius": 4.191
+        }
+    ],
+    "CURVE_OBJECTS": [
+    ],
+    "DOCUMENT_VALUES": {
+        "BACKGROUND_IMAGE": "AAAAAA==",
+        "BACKGROUND_OPACITY": 0.5,
+        "BACKGROUND_POSITION_X": 0,
+        "BACKGROUND_POSITION_Y": 0,
+        "BACKGROUND_ROTATION": 0,
+        "BACKGROUND_SCALE": 1,
+        "BACKGROUND_VISIBLE": false,
+        "DISPLAYMM": false,
+        "HEIGHT": 812.8,
+        "MACHINE": "Shapeoko XXL",
+        "MATERIAL": "MDF",
+        "RETRACT": 12,
+        "THICKNESS": 19.049999999999997,
+        "WIDTH": 812.8,
+        "ZERO_X": 0,
+        "ZERO_Y": 0,
+        "ZERO_Z": 0,
+        "grid_enabled": true,
+        "grid_spacing": 6.35,
+        "version": 1
+    },
+    "RECT_OBJECTS": [
+    ],
+    "REGULAR_POLYGON_OBJECTS": [
+    ],
+    "TEXT_OBJECTS": [
+    ],
+    "TOOLPATH_OBJECTS": [
+        {
+            "automatic_parameters": true,
+            "contours": [
+            ],
+            "enabled": true,
+            "end_depth": -19.2024,
+            "name": "holes",
+            "ofset_dir": -1,
+            "speeds": {
+                "feedrate": 1524,
+                "plungerate": 381,
+                "rpm": 15000
+            },
+            "start_depth": 0,
+            "stepdown": 3.518005540166205,
+            "stepover": 2.8575,
+            "tolerance": 0.01,
+            "tool": {
+                "angle": 0,
+                "corner_radius": 0,
+                "diameter": 6.35,
+                "display_mm": false,
+                "flutes": 2,
+                "length": 9.524999999999999,
+                "name": "",
+                "number": 201,
+                "overall_length": 38.099999999999994,
+                "uuid": "{00000000-0000-0000-0000-000000000201}"
+            },
+            "uuid": "{b8afc84f-25b5-4446-9079-8fe1d632bed0}",
+            "vcarve": false
+        }
+    ],
+    "toolpath_links": [
+        {
+            "links": [
+                "{b8afc84f-25b5-4446-9079-8fe1d632bed0}"
+            ],
+            "uuid": "{078fffb9-6351-48bd-a26d-cd73497799a2}"
+        },
+        {
+            "links": [
+                "{b8afc84f-25b5-4446-9079-8fe1d632bed0}"
+            ],
+            "uuid": "{1bb50791-5cac-4ceb-a350-325e3eddb04d}"
+        },
+        {
+            "links": [
+                "{b8afc84f-25b5-4446-9079-8fe1d632bed0}"
+            ],
+            "uuid": "{2d1c206e-3789-45fd-aa43-bcc5e37124d6}"
+        },
+        {
+            "links": [
+                "{4d304343-6907-4ff8-9ad0-182e7ae424ca}"
+            ],
+            "uuid": "{3c29a41a-53b4-46dc-9fb8-7f766ab1ee66}"
+        },
+        {
+            "links": [
+                "{4d304343-6907-4ff8-9ad0-182e7ae424ca}"
+            ],
+            "uuid": "{44977b8c-fd32-4050-a28e-1fd0ddf2e798}"
+        },
+        {
+            "links": [
+                "{b8afc84f-25b5-4446-9079-8fe1d632bed0}"
+            ],
+            "uuid": "{4e51532c-819a-42d9-bf14-3be5f91209fa}"
+        },
+        {
+            "links": [
+                "{923d190b-6158-4a8e-a855-498f4d2828b5}"
+            ],
+            "uuid": "{88bb1646-8e1b-40c8-bf36-f34c6ee71811}"
+        },
+        {
+            "links": [
+                "{b8afc84f-25b5-4446-9079-8fe1d632bed0}"
+            ],
+            "uuid": "{91c5ad31-3902-4481-bb34-397a4b6c3df0}"
+        },
+        {
+            "links": [
+                "{b8afc84f-25b5-4446-9079-8fe1d632bed0}"
+            ],
+            "uuid": "{97944099-05fe-4be4-b68e-de6944a0d70a}"
+        },
+        {
+            "links": [
+                "{b8afc84f-25b5-4446-9079-8fe1d632bed0}"
+            ],
+            "uuid": "{d1c2616e-a632-44df-ab2d-4c8cdd8c91af}"
+        },
+        {
+            "links": [
+                "{b8afc84f-25b5-4446-9079-8fe1d632bed0}"
+            ],
+            "uuid": "{d8752c93-0144-4632-8801-62eecad3a6b9}"
+        },
+        {
+            "links": [
+                "{b8afc84f-25b5-4446-9079-8fe1d632bed0}"
+            ],
+            "uuid": "{e6e362e9-6f7a-4121-a23b-e6301412bb76}"
+        },
+        {
+            "links": [
+                "{b8afc84f-25b5-4446-9079-8fe1d632bed0}"
+            ],
+            "uuid": "{ed12624b-b73a-4b2f-900c-a92e807e06a5}"
+        },
+        {
+            "links": [
+                "{b8afc84f-25b5-4446-9079-8fe1d632bed0}"
+            ],
+            "uuid": "{eff0555d-cc3e-4ceb-a569-56c9be2bb3f8}"
+        },
+        {
+            "links": [
+                "{b8afc84f-25b5-4446-9079-8fe1d632bed0}"
+            ],
+            "uuid": "{f9cd86d4-e73b-4582-a6c1-b1e81e99ece5}"
+        }
+    ]
+}
