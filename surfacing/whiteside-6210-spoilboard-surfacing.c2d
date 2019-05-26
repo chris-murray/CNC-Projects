@@ -1,0 +1,170 @@
+{
+    "CIRCLE_OBJECTS": [
+    ],
+    "CURVE_OBJECTS": [
+    ],
+    "DOCUMENT_VALUES": {
+        "BACKGROUND_IMAGE": "AAAAAA==",
+        "BACKGROUND_OPACITY": 0.5,
+        "BACKGROUND_POSITION_X": 0,
+        "BACKGROUND_POSITION_Y": 0,
+        "BACKGROUND_ROTATION": 0,
+        "BACKGROUND_SCALE": 1,
+        "BACKGROUND_VISIBLE": false,
+        "DISPLAYMM": true,
+        "HEIGHT": 812.8,
+        "MACHINE": "Shapeoko XXL",
+        "MATERIAL": "MDF",
+        "RETRACT": 10,
+        "THICKNESS": 12,
+        "WIDTH": 812.8,
+        "ZERO_X": 0,
+        "ZERO_Y": 0,
+        "ZERO_Z": 0,
+        "grid_enabled": true,
+        "grid_spacing": 5,
+        "version": 1
+    },
+    "RECT_OBJECTS": [
+        {
+            "corner_type": 0,
+            "group_id": [
+            ],
+            "height": 812.8,
+            "id": "{ed41f77e-bc83-4d9e-9b98-bc425af95f84}",
+            "position": [
+                406.4,
+                406.4
+            ],
+            "radius": 15,
+            "rotation": 0,
+            "width": 812.8
+        }
+    ],
+    "REGULAR_POLYGON_OBJECTS": [
+    ],
+    "TEXT_OBJECTS": [
+    ],
+    "TOOLPATH_OBJECTS": [
+        {
+            "automatic_parameters": true,
+            "elements": [
+                {
+                    "tab_index": [
+                    ],
+                    "tab_u": [
+                    ],
+                    "uuid": "{ed41f77e-bc83-4d9e-9b98-bc425af95f84}"
+                }
+            ],
+            "enabled": true,
+            "end_depth": -2,
+            "name": "outside",
+            "ofset_dir": 1,
+            "speeds": {
+                "feedrate": 145.531,
+                "plungerate": 24.255,
+                "rpm": 3820
+            },
+            "start_depth": 0,
+            "stepdown": 5.715,
+            "stepover": 11.43,
+            "tab_height": 3,
+            "tab_width": 12,
+            "tolerance": 0.01,
+            "tool": {
+                "angle": 0,
+                "corner_radius": 0,
+                "diameter": 25.4,
+                "display_mm": false,
+                "flutes": 3,
+                "length": 6.35,
+                "name": "WM6210",
+                "number": 6210,
+                "overall_length": 0,
+                "uuid": "{55cb3db1-b7c6-4f6e-b122-c5937d137943}"
+            },
+            "uuid": "{1cd33463-7ce5-4d13-beba-4146bad78c9c}"
+        },
+        {
+            "automatic_parameters": true,
+            "elements": [
+                {
+                    "tab_index": [
+                    ],
+                    "tab_u": [
+                    ],
+                    "uuid": "{ed41f77e-bc83-4d9e-9b98-bc425af95f84}"
+                }
+            ],
+            "enabled": true,
+            "end_depth": -2,
+            "name": "inside",
+            "ofset_dir": -1,
+            "speeds": {
+                "feedrate": 145.53140288834635,
+                "plungerate": 24.25523381472439,
+                "rpm": 3819
+            },
+            "start_depth": 0,
+            "stepdown": 5.715,
+            "stepover": 11.43,
+            "tab_height": 3,
+            "tab_width": 12,
+            "tolerance": 0.01,
+            "tool": {
+                "angle": 0,
+                "corner_radius": 0,
+                "diameter": 25.4,
+                "display_mm": false,
+                "flutes": 3,
+                "length": 6.35,
+                "name": "WM6210",
+                "number": 6210,
+                "overall_length": 0,
+                "uuid": "{55cb3db1-b7c6-4f6e-b122-c5937d137943}"
+            },
+            "uuid": "{f49e2434-8e72-43b0-b698-31e10ae8a122}"
+        },
+        {
+            "automatic_parameters": true,
+            "elements": [
+                {
+                    "tab_index": [
+                    ],
+                    "tab_u": [
+                    ],
+                    "uuid": "{ed41f77e-bc83-4d9e-9b98-bc425af95f84}"
+                }
+            ],
+            "enabled": true,
+            "end_depth": -2,
+            "name": "pocket",
+            "ofset_dir": 2,
+            "speeds": {
+                "feedrate": 145.53140288834635,
+                "plungerate": 24.25523381472439,
+                "rpm": 3819
+            },
+            "start_depth": 0,
+            "stepdown": 5.715,
+            "stepover": 11.43,
+            "tab_height": 3,
+            "tab_width": 12,
+            "tolerance": 0.01,
+            "tool": {
+                "angle": 0,
+                "corner_radius": 0,
+                "diameter": 25.4,
+                "display_mm": false,
+                "flutes": 3,
+                "length": 6.35,
+                "name": "WM6210",
+                "number": 6210,
+                "overall_length": 0,
+                "uuid": "{55cb3db1-b7c6-4f6e-b122-c5937d137943}"
+            },
+            "uuid": "{b314d209-a8a5-451d-820b-a3e3e2404f77}"
+        }
+    ]
+}
